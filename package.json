@@ -1,0 +1,27 @@
+{
+  "name": "pingpp-verifier",
+  "version": "0.0.1",
+  "description": "helper to verify pingpp webhook message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadHouses/pingpp-verifier.git"
+  },
+  "keywords": [
+    "pingpp",
+    "ping++",
+    "pingplusplus",
+    "webhook",
+    "express",
+    "middleware"
+  ],
+  "author": "Deo Liang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MadHouses/pingpp-verifier/issues"
+  },
+  "homepage": "https://github.com/MadHouses/pingpp-verifier#readme"
+}
