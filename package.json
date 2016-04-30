@@ -1,6 +1,6 @@
 {
   "name": "pingpp-verifier",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "helper to verify pingpp webhook message",
   "main": "index.js",
   "scripts": {
