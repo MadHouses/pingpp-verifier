@@ -3,7 +3,11 @@ var crypto = require('crypto');
 var fs = require('fs');
 
 function readFromFileIfIsPath(publicKey) {
-  return fs.isFile(publicKey) ? publicKey = fs.readFileSync(publicKey, 'utf-8'): publicKey;
+  try {
+    return fs.readFileSync(publicKey, 'utf-8');
+  } catch (e) {
+    return publicKey;
+  }
 }
 
 function Verifier(publicKey) {
